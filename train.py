@@ -9,16 +9,6 @@ Original file is located at
 # Version 25b
 """
 
-!nvidia-smi
-
-from google.colab import drive
-drive.mount('/content/drive')
-
-#!pip install transformers
-#!pip install seqeval -qq
-#!pip install datasets
-#!pip install --upgrade pandas
-
 """# Packages"""
 
 import os, gc, pickle, math, time, random, copy, shutil
